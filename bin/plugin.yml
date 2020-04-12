@@ -1,0 +1,14 @@
+name: AnnouncerPlusPlus
+version: 1.0
+description: Spigot announcements
+author: Tomahawkmissile
+main: com.gmail.tomahawkmissile2.announcer.Main
+api-version: 1.15
+commands:
+  announcer:
+    description: Access announcer help page
+    usage: /announcer
+permissions:
+  announcer.use:
+    description: Use announcer command.
+    default: op
